@@ -32,17 +32,16 @@ jobs:
         run: |
           mkdir -p curse_upload
           cp ./modpack.zip './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
-      - name: Upload to CurseForge
-        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
+      - name: Publish to CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
-          api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: '893217'
-          modpack-path: './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
-          changelog: ${{ steps.read_changelog.outputs.content }}
-          changelog-format: 'markdown'
-          game-version: ${{ vars.MC_VERSION }}
-          display-name: 'Stalkers Room ${{ steps.get_release.outputs.tag_name }}'
-          release-type: ${{ steps.get_curseforge_release_type.outputs.release_type }}
+         name: 'Stalkers Room ${{ steps.get_release.outputs.tag_name }} for ${{ vars.MC_VERSION }}'
+         curseforge-id: 893217
+         curseforge-token: ${{ secrets.CF_API_TOKEN }}
+         files: './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
+         loaders: forge
+         game-versions: ${{ vars.MC_VERSION }}
+         changelog-file: ${{ steps.read_changelog.outputs.content }}
       - name: Upload Modpack
         uses: actions/upload-release-asset@v1.0.2
         with:
