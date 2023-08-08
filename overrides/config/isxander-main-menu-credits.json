@@ -1,0 +1,22 @@
+{
+	"main_menu": {
+		"bottom_right": [
+			{
+				"text": "Stalker's Room",
+				"clickEvent": {
+					"action": "open_url",
+					"value": "https://discord.gg/DZScnezPBF"
+				}
+			}
+		]
+	},
+	"pause_menu": {
+		"bottom_right": [
+			{
+				"translate": "isxander-main-menu-credits.antighost",
+				"fallback": "Fix ghost blocks with /ghost",
+				"color": "dark_gray"
+			}
+		]
+	}
+}

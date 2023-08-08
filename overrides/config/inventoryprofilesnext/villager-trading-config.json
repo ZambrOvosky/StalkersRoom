@@ -1,0 +1,112 @@
+{
+    "globalBookmarks": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ],
+        "ae2:fluix_researcher": [
+        ]
+    },
+    "localBookmarks": {
+        "10cc346a-c3ce-4024-8539-5f2b9445bfd2": [
+            {
+                "resultItem": "ae2:certus_quartz_crystal",
+                "priceItem1": "minecraft:emerald"
+            }
+        ]
+    },
+    "globalBookmarks1": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ],
+        "ae2:fluix_researcher": [
+        ]
+    },
+    "globalBookmarks2": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ],
+        "ae2:fluix_researcher": [
+        ]
+    }
+}

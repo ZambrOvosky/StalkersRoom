@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"overrides": {
+		"fabricloader": {
+			"+depends": {
+				"fabricloader": ">=0.14.21"
+			}
+		},
+		"debugify": {
+			"recommends": {}
+		},
+		"lambdynlights": {
+			"recommends": {}
+		}
+	}
+}
