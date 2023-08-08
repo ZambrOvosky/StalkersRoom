@@ -18,16 +18,6 @@ jobs:
         run: sed -i 's/%MODPACK_VERSION%/${{ steps.get_release.outputs.tag_name }}/g' manifest.json
       - name: Zip Modpack
         run: zip -r modpack.zip *
-      - name: Read Changelog
-        id: read_changelog
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./changelog.md
-      - name: Get Release Type
-        id: get_curseforge_release_type
-        run: |
-          RELEASE_TYPE=$(echo ${{ steps.get_release.outputs.name }} | grep -oE '\[(.*)\]' | sed 's/[][]//g')
-          echo ::set-output name=release_type::$RELEASE_TYPE
       - name: Copy files for CurseForge upload
         run: |
           mkdir -p curse_upload
@@ -41,7 +31,7 @@ jobs:
          files: './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
          loaders: forge
          game-versions: ${{ vars.MC_VERSION }}
-         changelog-file: ${{ steps.read_changelog.outputs.content }}
+         changelog-file: ./changelog.md
       - name: Upload Modpack
         uses: actions/upload-release-asset@v1.0.2
         with:
