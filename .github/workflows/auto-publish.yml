@@ -1,0 +1,26 @@
+name: Automatically publish to CurseForge
+on: push
+jobs:
+  publish-to-curseforge:
+    if: github.repository_owner == 'ZambrOvosky'
+    runs-on: ubuntu-22.04
+    environment: github-actions
+    steps:
+       - name: Download the pack files
+         uses: robinraju/release-downloader@v1.8
+         id: download-files
+         with:
+           fileName: "*.zip"
+           latest: true
+           tarBall: false
+           zipBall: false
+           
+       - name: Publish to CurseForge
+         uses: Kir-Antipov/mc-publish@v3.3
+         with:
+           name: ${{ steps.download-files.outputs.tag_name }} for ${{ vars.MC_VERSION }}
+           curseforge-id: 893217
+           curseforge-token: ${{ secrets.CF_API_TOKEN }}
+           curseforge-files: '*.zip'
+           loaders: forge
+           game-versions: ${{ vars.MC_VERSION }}
