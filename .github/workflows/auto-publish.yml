@@ -18,11 +18,6 @@ jobs:
         run: sed -i 's/%MODPACK_VERSION%/${{ steps.get_release.outputs.tag_name }}/g' manifest.json
       - name: Zip Modpack
         run: zip -r modpack.zip *
-      - name: Build Server
-        uses: henkelmax/build-modpack-server-action@v1.0.0
-        with:
-          modpack-path: ./modpack.zip
-          output-path: ./modpack-server.zip
       - name: Read Changelog
         id: read_changelog
         uses: juliangruber/read-file-action@v1
@@ -37,19 +32,16 @@ jobs:
         run: |
           mkdir -p curse_upload
           cp ./modpack.zip './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
-          cp ./modpack-server.zip './curse_upload/StalkersRoom-Server-${{ steps.get_release.outputs.tag_name }}.zip'
       - name: Upload to CurseForge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with:
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: '893217'
           modpack-path: './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
-          modpack-server-path: './curse_upload/StalkersRoom-Server-${{ steps.get_release.outputs.tag_name }}.zip'
           changelog: ${{ steps.read_changelog.outputs.content }}
           changelog-format: 'markdown'
           game-version: ${{ vars.MC_VERSION }}
           display-name: 'Stalkers Room ${{ steps.get_release.outputs.tag_name }}'
-          server-display-name: 'Stalkers Room Server ${{ steps.get_release.outputs.tag_name }}'
           release-type: ${{ steps.get_curseforge_release_type.outputs.release_type }}
       - name: Upload Modpack
         uses: actions/upload-release-asset@v1.0.2
@@ -57,11 +49,4 @@ jobs:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
           asset_path: ./modpack.zip
           asset_name: 'StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
-          asset_content_type: application/zip
-      - name: Upload Server
-        uses: actions/upload-release-asset@v1.0.2
-        with:
-          upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: ./modpack-server.zip
-          asset_name: 'StalkersRoom-Server-${{ steps.get_release.outputs.tag_name }}.zip'
           asset_content_type: application/zip
