@@ -2,6 +2,8 @@ name: Automatically publish to CurseForge
 on:
   release:
     types: [published]
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 jobs:
   build:
     name: Build
@@ -39,7 +41,7 @@ jobs:
       - name: Upload to CurseForge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with:
-          api-token: ${{ secrets.API_TOKEN }}
+          api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: '893217'
           modpack-path: './curse_upload/StalkersRoom-${{ steps.get_release.outputs.tag_name }}.zip'
           modpack-server-path: './curse_upload/StalkersRoom-Server-${{ steps.get_release.outputs.tag_name }}.zip'
