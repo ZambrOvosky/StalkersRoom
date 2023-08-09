@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v3
       - name: Get Release
         id: get_release
-        uses: bruceadams/get-release@v1.2.2
+        uses: bruceadams/get-release@v1.3.2
       - name: Write manifest
         run: sed -i 's/%MODPACK_VERSION%/${{ steps.get_release.outputs.tag_name }}/g' manifest.json
       - name: Zip Modpack
