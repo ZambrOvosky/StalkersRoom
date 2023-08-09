@@ -1,3 +1,6 @@
-- Updated Connectivity mod
-- Updated JEI mod
-- Added cupboard mod dependency (asked by Connectivity)
+- Added some mods:
+	- Too Fast by Noobanidus
+	- Anvil Never Too Expensive by tinytransfem
+	- Better Chunk Loading by someaddon
+	- Smooth Chunk Save by someaddon
+	- AEInfinityBooster by hexeptiondev
