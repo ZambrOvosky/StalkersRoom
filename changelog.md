@@ -1,1 +1,3 @@
-- Just some deploy adjusts
+- Updated Connectivity mod
+- Updated JEI mod
+- Added cupboard mod dependency (asked by Connectivity)

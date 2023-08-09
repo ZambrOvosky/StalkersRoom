@@ -39,6 +39,16 @@
                 "resultItem": "ae2:certus_quartz_crystal",
                 "priceItem1": "minecraft:emerald"
             }
+        ],
+        "39a9181e-3c1d-456a-a549-f4371e66fff0": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:diamond"
+            },
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:iron_ingot"
+            }
         ]
     },
     "globalBookmarks1": {
