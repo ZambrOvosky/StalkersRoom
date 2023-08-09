@@ -1,6 +1,3 @@
-- Added some mods:
-	- Too Fast by Noobanidus
-	- Anvil Never Too Expensive by tinytransfem
-	- Better Chunk Loading by someaddon
-	- Smooth Chunk Save by someaddon
-	- AEInfinityBooster by hexeptiondev
+- Added some more mods:
+	- Merge Enchantments by Dplayend
+	- Improved Trident Enchantments by Dplayend
