@@ -7,7 +7,10 @@ env:
 jobs:
   build:
     name: Build
+    if: github.repository_owner == 'ZambrOvosky'
     runs-on: ubuntu-latest
+    environment: CurseForge Upload
+    
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
