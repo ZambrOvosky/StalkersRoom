@@ -1,3 +1,1 @@
-- Added some more mods:
-	- Merge Enchantments by Dplayend
-	- Improved Trident Enchantments by Dplayend
+Added the mod **Powah! (Rearchitected)** by *thetechnici4n* to have new ways to generate and store power/energy
