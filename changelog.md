@@ -1,1 +1,2 @@
-Added the mod **Powah! (Rearchitected)** by *thetechnici4n* to have new ways to generate and store power/energy
+- Erase the overrides
+- Idk what more
