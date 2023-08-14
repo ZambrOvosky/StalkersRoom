@@ -1,0 +1,21 @@
+
+["Common config for Tunneler"]
+	#Tunnel Height
+	#Range: 1 ~ 500
+	height = 5
+	#Tunnel Radius
+	#Range: 1 ~ 500
+	width = 5
+	#Tunnel Length
+	#Range: 1 ~ 500
+	length = 64
+	#Gap size between lights
+	#Range: 1 ~ 500
+	lightGap = 5
+	#Block to replace air/water/lava/falling blocks on the roof and floor
+	airReplacement = "minecraft:stone"
+	#Fill in air blocks on the roof of the tunnel
+	generateRoof = true
+	#Fill in air blocks on the floor of the tunnel
+	generateFloor = true
+

@@ -29,6 +29,26 @@
         "nitwit": [
         ],
         "none": [
+        ],
+        "ae2:fluix_researcher": [
+            {
+                "resultItem": "ae2:certus_quartz_crystal",
+                "priceItem1": "minecraft:emerald"
+            }
+        ]
+    },
+    "localBookmarks": {
+        "a7fa2fad-1ee5-442f-8446-8e81151c378f": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:feather"
+            }
+        ],
+        "39a9181e-3c1d-456a-a549-f4371e66fff0": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:iron_ingot"
+            }
         ]
     },
     "globalBookmarks1": {
@@ -61,6 +81,8 @@
         "nitwit": [
         ],
         "none": [
+        ],
+        "ae2:fluix_researcher": [
         ]
     },
     "globalBookmarks2": {
@@ -93,6 +115,8 @@
         "nitwit": [
         ],
         "none": [
+        ],
+        "ae2:fluix_researcher": [
         ]
     }
 }
