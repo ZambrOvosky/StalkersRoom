@@ -1,16 +1,19 @@
-## [1.1.0] - 2023-08-14
-
-### Added
-
-- New mod Giacomo's Automatable Cauldrons *by zacomat*
-- New mod Tom's Trading Network *by tom54541*
-- New mod Crafting Automat *by Fereydun*
-- New mod Rubble Ray *by Nicusha*
-- New mod Claim Chunk *by MacTso*
-- New mod Chunk Sending *by someaddon*
-- New mod Login Protection *by someaddon*
+## [1.1.1] - 2023-08-20
 
 ### Changed
 
+- Updated Bigger Reactors *by RogueLogix*
+- Updated Chunk Loaders *by SuperMartijn642*
+- Updated Cupboard Next *by someaddon*
+- Updated Friends&Foes (Forge) Next *by faboslav*
+- Updated Inventory Profiles Next *by mirinimi*
+- Updated Jade Addons (Forge) *by Snownee*
+- Updated Just Enough Items (JEI) *by mezz*
+- Updated libIPN *by mirinimi*
+- Updated Moonlight Lib *by MehVahdJukaar*
+- Updated Pipez Lib *by henkelmax*
+- Updated Puzzles Lib *by Fuzs*
 - Updated Supplementaries *by MehVahdJukaar*
-- Updated OpenBlocks Elevator *by vsngarcia*
+- Updated Tool Stats *by DarkhaxDev*
+- Updated Xaero's World Map *by xaero96*
+- Updated Xaero's Minimap *by xaero96*

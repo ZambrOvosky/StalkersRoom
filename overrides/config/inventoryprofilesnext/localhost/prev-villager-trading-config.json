@@ -31,6 +31,10 @@
         "none": [
         ],
         "ae2:fluix_researcher": [
+            {
+                "resultItem": "ae2:certus_quartz_crystal",
+                "priceItem1": "minecraft:emerald"
+            }
         ]
     },
     "localBookmarks": {

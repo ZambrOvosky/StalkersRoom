@@ -1,6 +1,10 @@
 {
     "globalBookmarks": {
         "armorer": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:diamond"
+            }
         ],
         "butcher": [
         ],
@@ -31,6 +35,22 @@
         "none": [
         ],
         "ae2:fluix_researcher": [
+        ],
+        "___+++___ wandering ___+++___": [
+        ]
+    },
+    "localBookmarks": {
+        "3796d820-7359-429d-a566-64a3b1243c4b": [
+            {
+                "resultItem": "ae2:certus_quartz_crystal",
+                "priceItem1": "minecraft:emerald"
+            }
+        ],
+        "10cc346a-c3ce-4024-8539-5f2b9445bfd2": [
+            {
+                "resultItem": "ae2:certus_quartz_crystal",
+                "priceItem1": "minecraft:emerald"
+            }
         ]
     },
     "globalBookmarks1": {
@@ -65,6 +85,8 @@
         "none": [
         ],
         "ae2:fluix_researcher": [
+        ],
+        "___+++___ wandering ___+++___": [
         ]
     },
     "globalBookmarks2": {
@@ -99,6 +121,8 @@
         "none": [
         ],
         "ae2:fluix_researcher": [
+        ],
+        "___+++___ wandering ___+++___": [
         ]
     }
 }
