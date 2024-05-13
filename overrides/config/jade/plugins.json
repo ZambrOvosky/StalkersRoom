@@ -40,6 +40,7 @@
     "block_states": false,
     "lectern": true,
     "entity_armor": true,
+    "harvest_tool.creative": false,
     "horse_stats": true,
     "item_tooltip": true,
     "entity_health": true,
@@ -56,6 +57,12 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "projecte": {
+    "emc_provider": true
+  },
+  "projectexpansion": {
+    "provider": true
+  },
   "mysticalagradditions": {
     "infused_farmland": true
   },
@@ -64,6 +71,9 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
