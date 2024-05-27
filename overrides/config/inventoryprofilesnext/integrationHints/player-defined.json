@@ -1,0 +1,9 @@
+{
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": {
+        "buttonHints": {
+            "PROFILE_SELECTOR": {
+                "hide": true
+            }
+        }
+    }
+}

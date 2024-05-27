@@ -1,10 +1,6 @@
 {
     "globalBookmarks": {
         "armorer": [
-            {
-                "resultItem": "minecraft:emerald",
-                "priceItem1": "minecraft:diamond"
-            }
         ],
         "butcher": [
         ],
@@ -21,12 +17,6 @@
         "leatherworker": [
         ],
         "librarian": [
-            {
-                "resultItem": "minecraft:enchanted_book",
-                "priceItem1": "minecraft:emerald",
-                "priceItem2": "minecraft:book",
-                "resultItemNBT": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
-            }
         ],
         "mason": [
         ],
@@ -39,34 +29,6 @@
         "nitwit": [
         ],
         "none": [
-        ],
-        "ae2:fluix_researcher": [
-        ],
-        "___+++___ wandering ___+++___": [
-        ],
-        "friendsandfoes:beekeeper": [
-        ]
-    },
-    "localBookmarks": {
-        "3796d820-7359-429d-a566-64a3b1243c4b": [
-            {
-                "resultItem": "ae2:certus_quartz_crystal",
-                "priceItem1": "minecraft:emerald"
-            },
-            {
-                "resultItem": "ae2:fluix_crystal",
-                "priceItem1": "minecraft:emerald"
-            }
-        ],
-        "10cc346a-c3ce-4024-8539-5f2b9445bfd2": [
-            {
-                "resultItem": "ae2:certus_quartz_crystal",
-                "priceItem1": "minecraft:emerald"
-            },
-            {
-                "resultItem": "ae2:fluix_crystal",
-                "priceItem1": "minecraft:emerald"
-            }
         ]
     },
     "globalBookmarks1": {
@@ -99,12 +61,6 @@
         "nitwit": [
         ],
         "none": [
-        ],
-        "ae2:fluix_researcher": [
-        ],
-        "___+++___ wandering ___+++___": [
-        ],
-        "friendsandfoes:beekeeper": [
         ]
     },
     "globalBookmarks2": {
@@ -137,12 +93,6 @@
         "nitwit": [
         ],
         "none": [
-        ],
-        "ae2:fluix_researcher": [
-        ],
-        "___+++___ wandering ___+++___": [
-        ],
-        "friendsandfoes:beekeeper": [
         ]
     }
 }
