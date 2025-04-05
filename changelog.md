@@ -1,3 +1,13 @@
+## [1.4.0] - 2025-04-05
+
+Yearly update. Yey!
+
+### Updated:
+- Various Mods, I not going to list it down :)
+- Forge to version 47.3.0
+
+------------------------------------------------------------------------
+
 ## [1.3.0] - 2024-05-29
 
 I really recommend you to start a new map, but it's all on you.
